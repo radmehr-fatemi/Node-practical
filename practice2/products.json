@@ -1,0 +1,34 @@
+[
+    {
+        "id":"1",
+        "name":"Samsong S24",
+        "description":"Smartphone fot njkovnweonnjvn",
+        "price":222
+    },
+    
+    {
+        "id":"2",
+        "name":"Sonny",
+        "description":"Smartphone fot njkovnweonnjvn",
+        "price":262
+    },
+    {
+        "id":"3",
+        "name":"Iphone",
+        "description":"Smartphone fot njkovnweonnjvn",
+        "price":422
+    },
+    {
+        "id":"4",
+        "name":"Zbook",
+        "description":"Smartphone fot njkovnweonnjvn",
+        "price":202
+    },
+    {
+        "id":"5",
+        "name":"Battery",
+        "description":"Smartphone fot njkovnweonnjvn",
+        "price":22
+    }
+
+]
