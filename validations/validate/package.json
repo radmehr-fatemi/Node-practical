@@ -1,0 +1,20 @@
+{
+  "name": "express-validator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-validation": "^4.1.0",
+    "express-validator": "^7.0.1",
+    "joi": "^17.12.2",
+    "nodemon": "^3.1.0",
+    "validate": "^5.2.0"
+  }
+}
