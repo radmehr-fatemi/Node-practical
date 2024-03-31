@@ -1,0 +1,3 @@
+msinfo32      moshakhasat system
+devmgmt. msc    moshakhasat system
+lusrmgr.msc     new user
