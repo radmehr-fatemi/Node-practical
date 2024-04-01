@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+    color: #fff;
+}
+
+* {
+    padding: .4rem;
+    transition: all .5s;
+    animation: Show .3s;
+}
+
+*:hover {
+    color: #1fdaff;
+    transition: all .5s;
+}
+
+a {
+    color: #fff;
+}
+
+@keyframes Show {
+    0% {
+        transform: translateX(-100%);
+    }
+}
