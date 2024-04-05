@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%=title%>
+    </title>
+    <link rel="stylesheet" href="/styles/register.css">
+</head>
+
+<body>
+    <form action="/register" method="POST" class="form-container">
+
+        <div class="form-header">
+            <h1>Register Here</h1>
+            <p>
+                <%-massage %>
+            </p>
+        </div>
+
+        <div class=" form-fields">
+            <div class="field">
+                <label for="fulName">Full Name</label>
+                <input type="text" name="fulName">
+            </div>
+            <div class="field">
+                <label for="username">Username</label>
+                <input type="text" name="username">
+            </div>
+            <div class="field">
+                <label for="password">Password</label>
+                <input type="password" name="password">
+            </div>
+        </div>
+
+        <button type="submit"> Submit </button>
+
+        <div class="links">
+            <a class="signin-link" href="/login"> Sign in </a>
+            <a class="home-link" href="/"> Home </a>
+        </div>
+    </form>
+</body>
+
+</html>

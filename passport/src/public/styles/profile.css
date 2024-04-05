@@ -1,0 +1,100 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.profile-container {
+    width: fit-content;
+    margin: auto;
+    margin-top: 10%;
+    padding: 1rem;
+    text-align: center;
+    animation: Show .3s;
+}
+
+.prifile-header {
+}
+
+.prifile-header h1 {
+    color: rgb(0, 94, 255);
+    font-size: 3rem;
+}
+
+.prifile-header h2 {
+    color: rgb(15, 203, 240);
+    font-size: 2rem;
+}
+
+.prifile-header p {
+    color: orange;
+}
+
+.prifile-fields {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.prifile-field1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.prifile-field2 {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.prifile-field2 p {
+    width: 25%;
+    background-color: blue;
+    color: #fff;
+    margin: .2rem;
+    padding: .2rem;
+    border-radius: 8px;
+}
+
+.prifile-field1 h4 {
+    width: 40%;
+    background-color: blue;
+    color: #fff;
+    margin: .2rem;
+    padding: .2rem;
+    border-radius: 8px;
+}
+
+.prifile-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prifile-links a {
+    padding: .4rem;
+    margin: .4rem;
+    color: #fff;
+    border-radius: 6px;
+}
+
+.logout-link {
+    background-color: red;
+}
+
+.home-link {
+    background-color: rgb(0, 171, 91);
+
+}
+
+
+@keyframes Show {
+    0% {
+        transform: scale(0);
+    }
+}

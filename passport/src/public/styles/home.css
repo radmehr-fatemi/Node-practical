@@ -1,0 +1,59 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.home-container {
+    width: fit-content;
+    margin: auto;
+    margin-top: 10%;
+    padding: 1rem;
+    text-align: center;
+    animation: Show .3s;
+}
+
+.home-container h1 {
+    color: rgb(0, 94, 255);
+    font-size: 3rem;
+}
+.home-container h2 {
+    color: rgb(15, 203, 240);
+    font-size: 2rem;
+}
+
+
+.home-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-links a {
+    text-decoration: none;
+    color: #fff;
+    border-radius: 6px;
+    padding: .4rem;
+    margin: .4rem;
+}
+
+.home-link {
+    background-color: rgb(0, 171, 91);
+}
+
+.login-link {
+    background-color: rgb(208, 0, 215);
+}
+
+.register-link {
+    background-color: rgb(0, 98, 254);
+}
+
+.profile-link {
+    background-color: rgb(198, 11, 255);
+}
+
+@keyframes Show {
+    0% {
+        transform: scale(0);
+    }
+}
